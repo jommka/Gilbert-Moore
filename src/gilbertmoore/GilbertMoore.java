@@ -62,7 +62,6 @@ public class GilbertMoore {
             sigma.add(j, q.get(j).add(BigDecimal.valueOf(listValue.get(j)/2)));
 //            codeWordLength.add((int) (-Math.log(listValue.get(j))/Math.log(2) + 2));
             codeWordLength.add((int) Math.ceil(-Math.log(listValue.get(j))/Math.log(2) + 1));
-
         }
     }
 
